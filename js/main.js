@@ -56,7 +56,6 @@ videoSection()
 
 const videoDisplay = (data) => {
     const videoContainer =document.getElementById('video-content');
-    const modalContainer = document.getElementById('modal-box');
     videoContainer.innerHTML = "";
 
     if(!data.length){
